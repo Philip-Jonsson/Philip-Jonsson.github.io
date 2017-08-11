@@ -1,0 +1,120 @@
+'
+
+/* svart med opacity 50 rgba(0,0,0,0.5 */
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background-color: #00080e;
+}
+
+
+
+
+.parallax {
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#cards{
+	background-image: url("../bilder/cards.jpeg");
+}
+
+#vad-jag-gor{
+	background-image: url("../bilder/coolguy.jpeg");
+}
+
+#forebilder{
+	background-image: url("../bilder/night.jpg");
+}
+
+#anvander{
+	background-image: url("../bilder/anvander.jpg");
+}
+
+
+.rubriker{
+	font-size: 100px;
+	font-family: "raleway", sans-serif;
+	color: 	#FFFFFF;
+	text-align: center;
+	position: absolute;
+	margin-top: 200px;
+
+	display:flex;
+	width: 100%;
+	justify-content: center;
+
+}
+
+.darker{
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-inverse {
+	background: transparent;
+	border: none;
+
+
+
+
+}
+
+
+.navbar-inverse .navbar-nav > li > a  {
+	font-size: 20px;
+	font-family: "raleway", sans-serif;
+	color: 	white;
+	background-color: rgba(0,0,0,0.5);
+	border: rgba(0,0,0,0.5);
+	border-width: 2px;
+	border-radius: 3px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.5);
+	text-decoration: underline;
+
+}
+
+.right {
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.logo{
+	position: absolute;
+	width:15%;
+	margin-left:40%;
+	z-index:1;
+}	
+
+#bar{
+	height: 50px;
+	width: 100%;
+	background-color: 00080e;
+}
+
+#menuheight{
+	margin-top:0px !important; 
+}
+
+.navbar {
+	margin-top:100px;
+}
