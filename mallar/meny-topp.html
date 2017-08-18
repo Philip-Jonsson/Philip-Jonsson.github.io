@@ -1,0 +1,47 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+
+    <!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+    <head>
+        <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Senaste Bootsrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Senaste jQuery och Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="
+        sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Använd egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+        <link rel="stylesheet" type ="text/css" href="style.css">
+
+        <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+        <title>Hemsidans titel</title>
+    </head>
+
+    <!-- I body finns allt innehåll på hemsidan -->
+    <body>
+
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Menyval 1</a></li>
+                    <li><a href="menyval2.html">Menyval 2</a></li>
+                    <li><a href="menyval3.html">Menyval 3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Här står allt innehåll på min hemsida</h2>
+
+    </body>
+</html>
